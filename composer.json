@@ -1,0 +1,21 @@
+{
+  "name": "nathanblazek/php-markdown",
+  "description": "A simple markdown php class to convert to html",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Nathan Blazek",
+      "email": "ncblazek@gmail.com"
+    }
+  ],
+  "require-dev": {
+    "phpunit/phpunit": "6.5.7"
+  },
+  "autoload": {
+    "psr-4": {
+      "ncb\\": "src/",
+      "ncb\\tests\\": "tests/"
+    }
+  }
+}
