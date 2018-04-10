@@ -77,6 +77,13 @@ class Markdown
                 "\nThis is a sample of text!\n",
                 '<p>This is a sample of text!</p>'
             ),
+            new Regex(
+                'Javascript Cleanup to prevent injection',
+                '/<script\b[^<]*(?:(?!<\/script>)<[^<]*)*<\/script>/i',
+                '',
+                "<script>alert('HAHAHAHA!');</script>",
+                ''
+            )
         );
     }
 
