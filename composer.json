@@ -1,6 +1,6 @@
 {
   "name": "nathanblazek/php-markdown",
-  "description": "A simple markdown php class to convert to html",
+  "description": "A simple php class to convert markdown to html",
   "minimum-stability": "stable",
   "license": "MIT",
   "authors": [
